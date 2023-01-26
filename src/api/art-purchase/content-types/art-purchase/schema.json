@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "art_purchases",
+  "info": {
+    "singularName": "art-purchase",
+    "pluralName": "art-purchases",
+    "displayName": "art-purchase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Paid": {
+      "type": "boolean"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Payment": {
+      "type": "decimal"
+    },
+    "Message": {
+      "type": "richtext"
+    },
+    "Face": {
+      "type": "integer"
+    },
+    "Size": {
+      "type": "string"
+    },
+    "Frame": {
+      "type": "string"
+    }
+  }
+}

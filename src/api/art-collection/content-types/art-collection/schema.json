@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "art_collections",
+  "info": {
+    "singularName": "art-collection",
+    "pluralName": "art-collections",
+    "displayName": "Art Collection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Discount": {
+      "type": "decimal"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "InstagramLink": {
+      "type": "string"
+    },
+    "YoutubeLink": {
+      "type": "string"
+    },
+    "Sold": {
+      "type": "boolean"
+    }
+  }
+}
