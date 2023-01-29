@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frame_options",
+  "info": {
+    "singularName": "frame-option",
+    "pluralName": "frame-options",
+    "displayName": "FrameOption"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Frame": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}

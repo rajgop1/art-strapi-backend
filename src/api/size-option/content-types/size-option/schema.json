@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "size_options",
+  "info": {
+    "singularName": "size-option",
+    "pluralName": "size-options",
+    "displayName": "SizeOption"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Price": {
+      "type": "decimal"
+    },
+    "Size": {
+      "type": "string"
+    }
+  }
+}

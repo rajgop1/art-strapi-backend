@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "face_options",
+  "info": {
+    "singularName": "face-option",
+    "pluralName": "face-options",
+    "displayName": "FaceOption"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Face": {
+      "type": "integer"
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}
